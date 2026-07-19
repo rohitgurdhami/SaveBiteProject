@@ -61,7 +61,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* Features */}
+        /* Features */
         <div id="features" className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-foreground mb-12">
             Key Features
@@ -135,7 +135,6 @@ export default function Page() {
               </p>
             </div>
           </div>
-
           <div className="mt-12 flex flex-col gap-3 border-t border-emerald-100/15 pt-6 text-sm text-emerald-100/70 sm:flex-row sm:items-center sm:justify-between">
             <p>© {new Date().getFullYear()} SaveBite. All rights reserved.</p>
             <p className="flex items-center gap-1">Made with <Heart className="h-4 w-4 fill-current text-emerald-300" /> for less food waste.</p>
